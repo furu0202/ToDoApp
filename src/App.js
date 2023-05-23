@@ -1,9 +1,11 @@
-import { useState, useRef } from 'react';
-import Todolist from './Todolist';
-import { v4 as uuidv4 } from 'uuid';
+import TodoList from './Todolist';
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <TodoList></TodoList>
+    </div>
+  );
 }
 
-export default App;
+export default TodoList;
