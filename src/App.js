@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default TodoList;
+export default App;
