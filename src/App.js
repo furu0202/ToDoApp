@@ -6,9 +6,10 @@ function App() {
     { id: 1, name: 'sample1', completed: false },
   ]);
 
-  const todoNameRef = useRef;
+  const todoNameRef = useRef();
   const handleAddTodo = () => {
     // タスクを追加
+    const name = todoNameRef.current.value;
   };
   return (
     <div>
